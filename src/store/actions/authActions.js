@@ -26,6 +26,24 @@ export const signOut = () => {
   };
 };
 
+export const anonymousUser = () => {
+  return (dispatch, getState, { getFirebase }) => {
+    const firebase = getFirebase();
+    firebase
+      .auth()
+      .signInAnonymously()
+      .then(function () {
+        console.log("Logged in as Anonymous!");
+      })
+      .catch(function (error) {
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        console.log(errorCode);
+        console.log(errorMessage);
+      });
+  };
+};
+
 export const signUp = (newUser) => {
   return (dispatch, getStatem, { getFirebase, getFirestore }) => {
     const firebase = getFirebase();
