@@ -1,4 +1,4 @@
-export const signIn = (credentials) => {
+/*export const signIn = (credentials) => {
   return (dispatch, getState, { getFirebase }) => {
     const firebase = getFirebase();
     firebase
@@ -73,3 +73,4 @@ export const signUp = (newUser) => {
       });
   };
 };
+*/

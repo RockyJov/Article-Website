@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import { NavLink } from "react-router-dom";
 import { connect } from "react-redux";
 import { signOut } from "../../store/actions/authActions";
@@ -30,3 +30,4 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 export default connect(null, mapDispatchToProps)(SignedInLinks);
+*/

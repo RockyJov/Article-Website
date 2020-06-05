@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 const SignedOutLinks = () => {
@@ -12,4 +12,4 @@ const SignedOutLinks = () => {
   )
 }
 
-export default SignedOutLinks
+export default SignedOutLinks*/
