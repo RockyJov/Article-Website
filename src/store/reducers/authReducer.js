@@ -1,4 +1,4 @@
-/*const initState = {
+const initState = {
   authError: null,
 };
 
@@ -37,4 +37,3 @@ const authReducer = (state = initState, action) => {
 };
 
 export default authReducer;
-*/

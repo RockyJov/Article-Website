@@ -1,4 +1,4 @@
-/*import React, { Component } from "react";
+import React, { Component } from "react";
 import { connect } from "react-redux";
 import { signIn } from "../../store/actions/authActions";
 import { Redirect } from "react-router-dom";
@@ -56,4 +56,4 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(SignIn);*/
+export default connect(mapStateToProps, mapDispatchToProps)(SignIn);
